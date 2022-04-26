@@ -47,7 +47,7 @@ public class JavaFXApp extends Application {
         int number1 = getNumberFromTextField (txtNumber1);
         int number2 = getNumberFromTextField (txtNumber2);
 
-        Icomputation computation;
+        Icomputation computation = null;
 
         switch (operator) {
             case PLUS:
