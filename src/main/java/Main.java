@@ -10,6 +10,14 @@ interface Icomputation{
 
 }
 
+class AddComputation implements Icomputation {
+    @Override
+    public int compute(int nummer1, int nummer2) {
+        return nummer1+nummer2;
+    }
+}
+
+
 class MultiplyComputation implements Icomputation{
 
     @Override
@@ -24,3 +32,4 @@ class DivideComputation implements Icomputation{
         return (number1/number2);
     }
 }
+
