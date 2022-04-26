@@ -17,3 +17,10 @@ class MultiplyComputation implements Icomputation{
         return (getal1 * getal2);
     }
 }
+
+class DivideComputation implements Icomputation{
+    @Override
+    public int compute(int number1, int number2){
+        return (number1/number2);
+    }
+}
