@@ -9,9 +9,27 @@ interface Icomputation{
     public int compute(int getal1, int getal2);
 
 }
+
 class AddComputation implements Icomputation {
     @Override
     public int compute(int nummer1, int nummer2) {
         return nummer1+nummer2;
     }
 }
+
+
+class MultiplyComputation implements Icomputation{
+
+    @Override
+    public int compute(int getal1, int getal2) {
+        return (getal1 * getal2);
+    }
+}
+
+class DivideComputation implements Icomputation{
+    @Override
+    public int compute(int number1, int number2){
+        return (number1/number2);
+    }
+}
+
